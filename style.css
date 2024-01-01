@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600&family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300&display=swap');
+
+body {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Figtree;
+}
+
+.card {
+    width: 380px;
+    height: 500px;
+    background-color: white;
+    border-color: black;
+    border-radius: 20px;
+    border-width: 10px;
+    box-shadow: 10px 10px 0px 0px black;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.card-preview {
+    margin-top: 10px;
+    width: 320px;
+    height: 200px;
+    border-radius: 10px;
+    background-image: url('https://6592b5fe5e2c05bd28fdfec6--ubiquitous-moxie-585a16.netlify.app/photos/illustration-article.svg');
+}
+
+.card-tag {
+    background-color: orange;
+    padding: 5px;
+    position: relative;
+    right: 120px;
+    border-radius: 5px;
+}
+
+.card-published {
+    position: relative;
+    right: 65px;
+    border-radius: 5px;
+    margin: 0;
+    height: 20px;
+}
+
+.card-title {
+    padding: 5px;
+    position: relative;
+    margin: 0;
+    right: 90px;
+    border-radius: 5px;
+}
+
+.card-content {
+    font-weight: 300;
+    max-width: 300px;
+}
